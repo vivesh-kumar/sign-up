@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign-up form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="signForm">
+        <header>
+            <h1> Signup</h1>
+        </header>
+        <main>
+            <form action="/submit" method="get">
+                <input id="name" type="text" placeholder="Full Name" required>
+                <hr>
+                <!-- Email----------------------------------------- -->
+
+                <input id="email" type="email" placeholder="Email" required>
+                <hr>
+
+                <!-- Password------------------------------- -->
+
+                <input id="password" type="password" placeholder="Password" required>
+                <hr>
+
+                <!-- Conform-password-------------------------- -->
+
+                <input id="conform_pass" type="password" placeholder="Conform Password" required>
+                <hr>
+
+                <!-- DOB--------------------------------- -->
+                <input id="dob" type="date" placeholder="Date of Birth" required>
+                <hr>
+
+                <!-- Radio button--------------------- -->
+                
+                <input id="student" type="radio" name="name" required>
+                <label for="student">Student</label>
+                <input id="emp" type="radio" name="name" required>
+                <label for="emp">Employee</label>
+
+                <br>
+
+                <input id="check" type="checkbox" required>
+                <label for="check">I agree to all the Terms and conditions</label>
+                <br>
+                <button class="submit" type="submit" value="Submit">
+                    Signup
+                </button>
+                <button class="submit btn" type="reset" value="Reset">
+                    Reset
+                </button>
+
+
+
+
+            </form>
+        </main>
+    </div>
+    <footer></footer>
+</body>
+
+</html>
